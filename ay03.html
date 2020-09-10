@@ -3,51 +3,53 @@
 <html>
 
 <head>
-    <!--cabecera-->
     <meta charset="UTF-8">
-    <!--cómo codificar el texto de la página-->
-    <title>Actividad 03</title>
-    <!--título pestaña-->
+    <link href = "estilos.css" rel = "stylesheet" />
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="jquery-3.js"></script>
+	<script type="text/javascript" src="aplicacion.js"></script>
+</head>
+    <title>Quokkas</title>
 </head>
 
 <body>
-    <header> &#x1F60a<em> El animal más feliz del mundo </em>&#x1F60a;
+    <header id = "header" class = "destacado"> &#x1F60a<em> El animal más feliz del mundo </em>&#x1F60a;
         <nav>
-            <!--navegacion-->
             <li><a href="https://www.infobae.com/tendencias/2020/02/20/todo-sobre-el-quokka-el-animal-mas-feliz-del-mundo/"
                 title="Todo sobre el quokka">Todo sobre el quokka</a></li>
             <li><a href="https://www.dailytelegraph.com.au/coronavirus/hibernation/need-a-happiness-boost-these-quokkas-can-help/news-story/37d76134709fea8081387a7d910dbb5b"
                     title="Por si necesitan algo de felicidad">Datos felices</a></li>
             <li><a href="https://espanol.eurosport.com/tenis/el-selfie-de-nadal-con-un-quokka-el-animal-mas-feliz-del-mundo_vid1274981/video.shtml"
                 title="Nadal + quokka">La selfie de Nadal con un quokka</a></li>
-            <!--puntitos-->
         </nav>
     </header>
-    <h1><strong> Q U O K K A S </strong></h1>
-    <p>Los <strong>quokkas</strong> son pequeños marsupiales, del tamaño de un gato doméstico, que se caracterizan por
+    <h1 id="title" class = "destacado"><strong> Q U O K K A S </strong></h1>
+    <p class = "parrafo">Los <strong>quokkas</strong> son pequeños marsupiales, del tamaño de un gato doméstico, que se caracterizan por
         su sociabilidad y su sonrisa</p>
+        <button id="button1">CLICK AQUÍ PARA UNA SORPRESA</button>
+        <button id="button2">CLICK AQUÍ PARA OTRA SORPRESA</button>
     <p>
         <img src="https://i.pinimg.com/originals/f8/54/49/f85449b90cb8cfb593fb4d8af5d80393.jpg" alt="Quokka feliz 1"
             height="300" />
         <img src="https://img.srgcdn.com/e//WWJ0WE04UE5jUlFmMTdFeUV5UXIuanBn.jpg" alt="Quokka feliz 2" height="300" />
     </p>
-    <div class="shadowbox">
+    <div id="change" class="shadowbox">
         <p><strong>DESCRIPCIÓN</strong></p>
         <p>Los quokkas son una de las especies más pequeñas de wallaby de Australia</p>
     </div>
-    <div class="shadowbox">
+    <div id="change" class="shadowbox">
         <p><strong>PERTH MINT DISEÑA UNA MONEDA DE QUOKKA</strong></p>
         <img src="https://images.s.thewest.com.au/publication/B881650439Z/1598504904291_GEH2TCL1V.1-2.JPG?imwidth=1024&impolicy=wan_v3" alt="Quokka feliz 2" height="300" />
         <p><a href="https://thewest.com.au/news/rottnest/perth-mint-releases-quokka-coin-as-part-the-happiest-animal-on-the-planets-annual-birthday-celebration-ng-b881650439z"
             title="Moneda de Quokka">Link a la noticia</a></p>
     </div>
-    <div class="shadowbox">
-        <p><strong>SUPERVIVENCIA</strong></p>
+    <div id="change" class="shadowbox">
+        <p><strong id="strong">SUPERVIVENCIA</strong></p>
         <p>Los quokkas son capaces de sobrevivir con muy poca agua y a pesar de su tamaño, pueden trepar árboles. Los quokkas se han usado en investigaciones médicas para estudiar la distrofia muscular, ya que también la pueden padecer</p>
     </div>
     <div class="shadowbox">
         <p><strong>FUN FACTS</strong></p>
-        <p><img src="https://facts.net/wp-content/uploads/2015/01/Quokka-Facts-1.jpg" alt="Datos 1" height="300" /></p>
+        <p class = "imagen"><img src="https://facts.net/wp-content/uploads/2015/01/Quokka-Facts-1.jpg" alt="Datos 1" height="300" /></p>
     </div>
 </body>
 
